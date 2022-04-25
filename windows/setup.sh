@@ -11,6 +11,9 @@ $HOMEDRIVE$HOMEPATH\\python310\\python.exe -m pip install virtualenv
 rm -rf rpc-slave/
 git clone https://github.com/akselbor/rpc-slave.git
 
+# Install rustup
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs > rustup.sh && ./rustup.sh -y
+
 # Move into the rpc-slave director
 cd rpc-slave
 
