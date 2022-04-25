@@ -13,7 +13,8 @@ git clone https://github.com/akselbor/rpc-slave.git
 
 # Install rustup. Note: it seems we that we need to run the installer in order for rustc/cargo to be
 # available from CMD for maturin.
-curl https://win.rustup.rs/x86_64 --output rustup-init.exestart rustup-init.exe -y
+curl https://win.rustup.rs/x86_64 --output rustup-init.exe
+start rustup-init.exe -y
 
 # Move into the rpc-slave director
 cd rpc-slave
