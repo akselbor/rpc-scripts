@@ -23,7 +23,7 @@ python --version
 pip install -r requirements.txt
 
 # Start the slave node using this as the master node
-python main.py --master http://10.24.24.96:5000
+python main.py --master http:// 10.24.26.243:5000
 
 # Left here during testing to keep the command prompt open
 read -p "test" hello
